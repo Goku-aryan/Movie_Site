@@ -1,0 +1,199 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: border-box;
+}
+.navbar{
+    background-color: slategray;
+    height: 60px;
+    width: 100%;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    /* position: fixed; */
+
+}
+#navbartext{
+    margin: 12px 0px 0px 10px;
+    color: yellow;
+}
+.fa-solid{
+    margin: 28px 0px 0px 30px ;
+    font-size: 20px;
+    color: lightyellow;
+    transition: all 0.3s ease;
+}
+.fa-solid:hover{
+    transform: scale(1.5);
+}
+#signInButton{
+  background-color: slategray; 
+  color: yellow; 
+  border: none;
+  padding: 6px 12px; 
+  font-size: 14px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; 
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+#signInButton:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+#signInButton:focus {
+    outline: none; 
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    padding-left: 40px; 
+    position: relative;
+  }
+  
+  .search-input::before {
+    content: "🔍";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .search-btn {
+    background-color: rgb(148, 172, 196);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-btn:focus {
+    outline: none;
+  }
+
+  .navbarAnchortags{
+    transition: all 0.3s ease;
+    color: yellow;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .navbarAnchortags:hover{
+    transform: scale(1.2);
+  }
+
+  #navHome{
+    font-size: 18px;
+    margin-left: 220px;
+  }
+  
+  #navNew{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  #navTrendings{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  #navMostWatched{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+
+  /* Main Section  Starts here  */
+
+  .backgroundImage{
+    /* background-image: url("best-free-movie-sites-1681323728136.jpg"); */
+    height: 50px;
+    background-color: black;
+    /* background-size: cover; */
+  }
+
+  .message{
+    height: 40px;
+    color: yellow;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .moviesCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #888;
+  }
+
+  .card{
+    height: 250px;
+    width: 15%;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+  .movie1{
+    height: 250px;
+    object-fit: contain;
+    background-size: cover;
+  }
+
+  .footer-panel-1{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-panel-2{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
+  }
+
+  .footer-panel-3{
+    height: 80px;
+    background-color: black;
+    border-top: 0.5px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
